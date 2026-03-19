@@ -24,7 +24,7 @@ class AuthViewModel extends ChangeNotifier {
       await Future.delayed(const Duration(seconds: 1));
 
       // Dummy validation (ganti dengan API call nanti)
-      if (email == 'admin@markup.com' && password == 'password') {
+      if (email == 'admin@markup.com' && password == '123') {
         await StorageService.saveToken('dummy_token_12345');
         await StorageService.saveUserInfo('Admin Mark-Up', email);
         _isLoading = false;
