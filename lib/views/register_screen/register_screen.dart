@@ -189,17 +189,17 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           height: 1.5,
                         ),
                         children: const [
-                          const TextSpan(text: 'I agree to the '),
+                        TextSpan(text: 'I agree to the '),
                           TextSpan(
                             text: 'Terms of Service',
                             style: TextStyle(color: AppColors.secondary, fontWeight: FontWeight.w600),
                           ),
-                          const TextSpan(text: ' and '),
+                          TextSpan(text: ' and '),
                           TextSpan(
                             text: 'Privacy Policy',
                             style: TextStyle(color: AppColors.secondary, fontWeight: FontWeight.w600),
                           ),
-                          const TextSpan(text: '.'),
+                          TextSpan(text: '.'),
                         ],
                       ),
                     ),
